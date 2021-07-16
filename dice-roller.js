@@ -16,5 +16,16 @@ for(let x = 0; x <= 10; x++){
     document.write(`${x+2} : ${count[x]} <br>`)
 }
 
+for(let x = 0; x <= 10; x++){
+    let cal = count[x] / 2
+    let barra = document.createElement('div')
+    barra.style.width = cal + '%'
+    barra.style.height = '20px'
+    barra.style.margin = '5px'
+    document.body.appendChild(barra)
+
+    barra.className = 'barrapesada'
+}
+
 
 

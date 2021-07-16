@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --font: 'Oswald', sans-serif;
+}
+
+* {
+    font-family: var(--font);
+}
+body {
+    background: #c2b4b4;
+}
+h1 {
+    color: #EE4000
+}
+.barrapesada {
+    background-color: yellow;
+}
+@media (min-width:769px){
+    body {
+        background: #68b987;
+    }
+    h1 {
+        color: blue;
+    }
+    .barrapesada {
+        background-color: brown;
+    }
+}
